@@ -5,10 +5,10 @@ import Pokedex from './Pokedex';
 
 function App() {
   return (
-    <main className="App">
+    <div className="App">
       <h1> Pokedex </h1>
       <Pokedex pokemons={pokemons} />
-    </main>
+    </div>
   );
 }
 
